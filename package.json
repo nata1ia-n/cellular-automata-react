@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,11 +50,13 @@
     "autoprefixer": "^10.4.20",
     "babel-jest": "^29.7.0",
     "fast-check": "^3.22.0",
+    "gh-pages": "^6.1.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.12",
     "ts-jest": "^29.2.5"
-  }
+  },
+  "homepage": "https://nata1ia-n.github.io/cellular-automata-react"
 }
