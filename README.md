@@ -1,46 +1,17 @@
-# Getting Started with Create React App
+# Elementary Cellular Automata Visualiser - React.js Version
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This is a React.js web application designed for generating elementary cellular automata patterns. Users can input parameters such as pattern number, number of generations, and initial generation type to visualize various configurations effectively.
 
-In the project directory, you can run:
+The original version of this project features a separate Next.js frontend and a Python backend, which can be found [here](https://github.com/nata1ia-n/cellular-automata). 
 
-### `npm start`
+This static version is built entirely in TypeScript using React.js and has been deployed [here](https://nata1ia-n.github.io/cellular-automata-react/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Running the app locally
+- Install dependencies: `npm i`
+- Run the the app with: `npm start` or simply `make run`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Preview
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1488" alt="Screenshot 2024-09-01 at 15 47 10" src="https://github.com/user-attachments/assets/c145a9cd-1cfb-4754-9d53-7cc42ecb3bed">
